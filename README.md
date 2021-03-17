@@ -23,4 +23,6 @@ To fit the electronics (Buttons, Display etc.)I created a Backplate with holds t
 You need Buttons in following numbers
 
 ### Screenshots
-(/documentation/images/Radiopanel - Complete.png)
+![ScreenShot Complete](https://github.com/homeavionicgroup/rmp/blob/main/documentation/images/Radiopanel%20-%20%20Complete.png)
+
+##Electronics
