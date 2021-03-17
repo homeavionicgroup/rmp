@@ -13,10 +13,10 @@ The requirements are described in more detail in the following chapters
 ## 3D Model
 The components for the 3D Modell are available as STL to be printed by the 3DPrinter of your choice. The Frontplate is hosted externally but the other (fitting) elements are in the corresponding folder in this repository. 
 
-###Front Plate
+### Front Plate
 As Front Plate I found following freely available Model on thingyverse: https://www.thingiverse.com/thing:2892991
 
-###Back Plate
+### Back Plate
 To fit the electronics (Buttons, Display etc.)I created a Backplate with holds that stuff and is mouted directly beneath the FrontPlate
 
-###Buttons
+### Buttons
