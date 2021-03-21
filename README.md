@@ -3,6 +3,8 @@ Radio Management Panel for HomeCockpit Use
 
 This Repository shows the requred sources to build a A350ish Radio Management Panel for the use with your Home Flightsimulator. Currently it only works with X-Plane (FF320, ToLiss321, FF350) but MSFS compatibility is generally possible. 
 
+For Flight Simulation use only. No warranties, use at your own risk.
+
 You need the following: 
 1. 3D Model
 2. Electronic
@@ -13,10 +15,24 @@ The requirements are described in more detail in the following chapters
 ## 3D Model
 The components for the 3D Modell are available as STL to be printed by the 3DPrinter of your choice. The Frontplate is hosted externally but the other (fitting) elements are in the corresponding folder in this repository. 
 
-###Front Plate
-As Front Plate I found following freely available Model on thingyverse: https://www.thingiverse.com/thing:2892991
+### Front Plate
+As Front Plate I found following freely available Model on thingyverse: https://www.thingiverse.com/thing:2892991 and adapted it to fit it better with the buttons and the backplate. 
 
-###Back Plate
+### Back Plate
 To fit the electronics (Buttons, Display etc.)I created a Backplate with holds that stuff and is mouted directly beneath the FrontPlate
 
-###Buttons
+### Buttons
+You need Buttons in following numbers
+
+### Screenshots
+![ScreenShot Complete](https://github.com/homeavionicgroup/rmp/blob/main/documentation/images/Radiopanel%20-%20%20Complete.png)
+
+## Electronics
+
+# LICENSE
+Shared under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License:
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+
+# DISCLAIMER
+For Flight Simulation use only. No warranties, use at your own risk.
