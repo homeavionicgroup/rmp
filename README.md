@@ -22,12 +22,25 @@ As Front Plate I found following freely available Model on thingyverse: https://
 To fit the electronics (Buttons, Display etc.)I created a Backplate with holds that stuff and is mouted directly beneath the FrontPlate
 
 ### Buttons
-You need Buttons in following numbers
+You need Buttons in following numbers:
+- 21 x Radiopanel-Button-big
+- 3 x Radiopanel-Button-round (Big Dot)
+- 3 x Radiopanel-Button-small (BAR)
+- 2 x Radiopanel-Button-small (up)
+- 1 each of (Radiopanel-Button-round (0-9),Radiopanel-Button-round (CLR), Radiopanel-Button-round (Dot), Radiopanel-Button-small (MSGCLR), Radiopanel-Button-small (RST)9
 
 ### Screenshots
 ![ScreenShot Complete](https://github.com/homeavionicgroup/rmp/blob/main/documentation/images/Radiopanel%20-%20%20Complete.png)
 
 ## Electronics
+
+### Elements
+You need following eletronics:
+- 1 x Raspberry Pi 3 A+ 
+- 1 x Waveshare 4.3 inch Touch Display with DSI Interface
+- 1 x Raspberry Pico
+- 43 x Omron B3F-4030
+- 2 x 
 
 # LICENSE
 Shared under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License:
