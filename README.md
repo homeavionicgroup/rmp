@@ -40,10 +40,16 @@ You need following eletronics:
 - 1 x Waveshare 4.3 inch Touch Display with DSI Interface
 - 1 x Raspberry Pico
 - 43 x Omron B3F-4030
-- 2 x 
+- 2 x KY-040 Rotary Encoders
+- Lots of kables & Soldering equipment
+
+## Other
+To hold everything together I use M4 screws with minimum of 30mm length incl. lots of washers and nuts. As to keep the elecontrics (especially the buttons and rotaries) in place, I use double-sided adhesive pads. For a less chaos I additionally use cable labeles, which makes the wiring a lot easier. 
+
+
 
 # LICENSE
-Shared under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License:
+This project and all it's elements are shared under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License:
 https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 
