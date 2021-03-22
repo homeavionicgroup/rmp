@@ -16,7 +16,7 @@ The requirements are described in more detail in the following chapters
 The components for the 3D Modell are available as STL to be printed by the 3DPrinter of your choice. The Frontplate is hosted externally but the other (fitting) elements are in the corresponding folder in this repository. 
 
 ### Front Plate
-As Front Plate I found following freely available Model on thingyverse: https://www.thingiverse.com/thing:2892991 and adapted it to fit it better with the buttons and the backplate. 
+As Front Plate I found following available Model on thingyverse: https://www.thingiverse.com/thing:2892991 and adapted it to fit it better with the buttons and the backplate. Checkout russ1364 model portfolio on thingyverse. He has some amazing stuff available if you look for Airbus specific material. 
 
 ### Back Plate
 To fit the electronics (Buttons, Display etc.)I created a Backplate with holds that stuff and is mouted directly beneath the FrontPlate
