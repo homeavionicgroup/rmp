@@ -29,6 +29,7 @@ You need Buttons in following numbers:
 - 2 x Radiopanel-Button-small (up)
 - 1 each of (Radiopanel-Button-round (0-9),Radiopanel-Button-round (CLR), Radiopanel-Button-round (Dot), Radiopanel-Button-small (MSGCLR), Radiopanel-Button-small (RST)9
 
+
 ### Screenshots
 ![ScreenShot Complete](https://github.com/homeavionicgroup/rmp/blob/main/documentation/images/Radiopanel%20-%20%20Complete.png)
 
@@ -42,6 +43,8 @@ You need following eletronics:
 - 43 x Omron B3F-4030
 - 2 x KY-040 Rotary Encoders
 - Lots of kables & Soldering equipment
+- 1x short Micro USB cable to connect the Pico (20mm)
+- 1x Micro USB cable with sufficient length (depending on where your USB Power Source is)
 
 ## Other
 To hold everything together I use M4 screws with minimum of 30mm length incl. lots of washers and nuts. As to keep the elecontrics (especially the buttons and rotaries) in place, I use double-sided adhesive pads. For a less chaos I additionally use cable labeles, which makes the wiring a lot easier. 
