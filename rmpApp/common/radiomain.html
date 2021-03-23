@@ -1,0 +1,53 @@
+<html >
+    <head>
+        <link rel="stylesheet" type="text/css" href="../main.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/radio.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/vhf.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/sqwk.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/simbrief.css"/>
+        <script type="text/javascript" src="./js/config.js"></script>
+        <script type="text/javascript" src="./js/websocketfactory.js"></script>
+        <script type="text/javascript" src="./js/radiocommon.js"></script>
+        <script type="text/javascript"  src="./js/radiohw.js"></script>
+        <script type="text/javascript"  src="./js/radiovhf.js"></script>
+        <script type="text/javascript"  src="./js/radiosqwk.js"></script>
+        <script type="text/javascript"  src="./js/radiosimbrief.js"></script>
+        <script type="text/javascript"  src="./js/simbriefhelper.js"></script>
+    </head>
+    <body class="blackBg noscrollbars" onload="runPostLoad()">
+        <div id="VHF" class="container">
+            <div id="msgline" class="messageline"></div>   
+            <div id="main" class="container">
+                <canvas id="vhfBG" width="800" height="480" style="position:fixed; top:0;left:0">
+                    No canvas for you sir
+                </canvas>
+    
+                <div id="activel1" class="activel1">118.000</div>                
+                <div id="activel2" class="activel2">118.000</div>
+                <div id="activel3" class="activel3">DATA</div>
+
+                <div id="activer1Stby" class="activer1StbyLbl">STBY</div>
+                <div id="activer1" class="activer1 activerStby">118.000</div>
+                <div id="activer2" class="activer2">118.000</div>
+                <div id="activer3" class="activer3">DATA</div>            
+                <div id="activem1" class="activem1">
+                    <span class="selectChannel">VHF1</span>
+                </div>
+                <div id="activem2" class="activem2">VHF2</div>
+                <div id="activem3" class="activem3">VHF3</div>
+                <img id="speaker1" src="img/speakersymbol.png" class="speakerL1"/>
+            </div>
+            <div id="simbrief" class="container hidden">
+                <div id="activesbl1" class="activeSBl1">RELOAD</div>
+                <div id="sbdata" class="sbdata">No Data</div>
+            </div>
+            <div id="header1" class="radioheader radioheader1" >VHF</div>
+            <div id="header2" class="radioheader radioheader2" >SQWK</div>
+            <div id="header3" class="radioheader radioheader3" >FLPL</div>
+            <div id="header4" class="radioheader radioheader4" >TEST</div>
+            <div id="header5" class="radioheader radioheader5" >TEST</div>
+            <div id="header6" class="radioheader radioheader6" >TEST</div>
+            <div id="header7" class="radioheader radioheader7" >MENU</div>
+        </div>
+    </body>
+</html>

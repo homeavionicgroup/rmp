@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../main.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/radio.css"/>
+        <script type="text/javascript" src="./js/radiomenu.js"></script>
+        <script type="text/javascript"  src="./js/radiohw.js"></script>
+
+    </head>
+    <body class="blackBg noscrollbars">
+        <div id="msgline" class="messageline">Message</div>       
+        <div id="main" class="container">
+            <canvas id="vhfBG" width="800" height="480" style="position:fixed; top:0;left:0">
+            </canvas>
+            <div id="activel1" class="activel1">LineL1</div>        
+            <div id="activel2" class="activel2">LineL2</div>
+            <div id="activel3" class="activel3">LineL3</div>
+            <div id="activer1" class="activer1">LineR1</div>
+            <div id="activer2" class="activer2">LineR2</div>
+            <div id="activer3" class="activer3">LineR3</div>
+            <div id="activem1" class="activem1">Middle1</div>
+            <div id="activem2" class="activem2">Middle2</div>
+            <div id="activem3" class="activem3">Middle3</div>
+        </div>
+        <div id="simbrief" class="container hidden">
+            <div id="activel1" class="activel1">Reload</div>  
+        </div>
+        
+        <div id="header1" class="radioheader radioheader1" >TEST</div>
+        <div id="header2" class="radioheader radioheader2" >TEST</div>
+        <div id="header3" class="radioheader radioheader3" >TEST</div>
+        <div id="header4" class="radioheader radioheader4" >TEST</div>
+        <div id="header5" class="radioheader radioheader5" >TEST</div>
+        <div id="header6" class="radioheader radioheader6" >TEST</div>
+        <div id="header7" class="radioheader radioheader7" >TEST</div>
+
+        
+        <script type="text/javascript">
+            var c = document.getElementById("vhfBG");
+            var ctx = c.getContext("2d");
+
+            ctx.beginPath();
+            ctx.moveTo(0, 140);
+            ctx.lineTo(800, 140);
+            ctx.strokeStyle = "#f5f5f5";
+            ctx.stroke();
+            ctx.moveTo(0,280);
+            ctx.lineTo(800,280);
+            ctx.strokeStyle = "#f5f5f5";
+            ctx.stroke()
+            ctx.moveTo(0,420)
+            ctx.lineTo(800,420);
+            ctx.strokeStyle = "#f5f5f5";
+            ctx.stroke();
+    
+            
+            ctx.beginPath();
+            ctx.rect(600, 30, 180, 100);
+            ctx.lineWidth = 2;
+            ctx.strokeStyle = 'cyan';
+            ctx.stroke();
+
+        </script>
+    </body>
+</html>

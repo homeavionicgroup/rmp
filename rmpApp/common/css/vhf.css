@@ -1,0 +1,27 @@
+.selectChannel{
+    background-color:green;
+    color: black;
+}
+
+.speakerL1{
+    position: absolute;
+    top: 32px;
+    left: 305px;
+    max-width: 6%;
+}
+
+.activerStby{
+    position:absolute;
+    top: 74px;
+    left: 630px;
+    color: cyan;
+}
+
+.activer1StbyLbl{
+    position:absolute;
+    top: 38px;
+    left: 634px;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }

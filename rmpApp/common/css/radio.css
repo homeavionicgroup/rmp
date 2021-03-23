@@ -1,0 +1,169 @@
+.noscrollbars {
+  overflow: hidden;
+}
+
+.container {
+  background-color: black;
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.blackBg {
+  background-color: black;
+  height: 100%;
+}
+
+.container2{
+  position: relative;
+  text-align: left;
+  color: white;
+}
+
+.hidden{
+  display: none;
+}
+
+.line{
+  border-bottom: 2px solid grey;
+  display: block;
+}
+
+.line1{
+  margin-top: 140px;
+}
+
+.line2{
+  margin-top: 140px;
+}
+
+.line3{
+  margin-top: 140px;
+}
+
+.messageline {
+  position: absolute;
+  top: 435px;
+  left: 10px;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.activel1{
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  font-size: 53px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.activel2{
+  position: absolute;
+  top: 190px;
+  left: 10px;
+  font-size: 53px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.activel3{
+  position: absolute;
+  top: 340px;
+  left: 10px;
+  font-size: 53px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+
+.activer1{
+  position: absolute;
+  top: 70px;
+  left: 630px;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.activer2{
+  position: absolute;
+  top: 220px;
+  left: 630px;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+
+}
+
+.activer3{
+  position: absolute;
+  top: 340px;
+  left: 630px;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.activem1{
+  position: absolute;
+  top: 40px;
+  left: 360px;
+  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.activem2{
+  position: absolute;
+  top: 190px;
+  left: 360px;
+  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.activem3{
+  position: absolute;
+  top: 340px;
+  left: 360px;
+  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.radioheader4{
+  left: 360px;
+}
+
+.radioheader{
+  position: absolute;
+  top: 0px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white
+}
+
+.radioheader1{
+  left: 0px;
+}
+
+.radioheader2{
+  left: 120px;
+}
+
+.radioheader3{
+  left: 240px;
+}
+.radioheader4{
+  left: 360px;
+}
+.radioheader5{
+  left: 480px;
+}
+.radioheader6{
+  left: 610px;
+}
+.radioheader7{
+  left: 730px;
+}

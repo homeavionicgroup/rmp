@@ -49,7 +49,8 @@ You need following eletronics:
 ## Other
 To hold everything together I use M4 screws with minimum of 30mm length incl. lots of washers and nuts. As to keep the elecontrics (especially the buttons and rotaries) in place, I use double-sided adhesive pads. For a less chaos I additionally use cable labeles, which makes the wiring a lot easier. 
 
-
+## Wiring
+Howto wire all the elements is described in the corresponding documentation: 
 
 # LICENSE
 This project and all it's elements are shared under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License:
