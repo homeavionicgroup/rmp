@@ -31,3 +31,6 @@ You need following eletronics:
 - Lots of kables & Soldering equipment
 - 1x short Micro USB cable to connect the Pico (20mm)
 - 1x Micro USB cable with sufficient length (depending on where your USB Power Source is)
+
+## Other
+To hold everything together I use M4 screws with minimum of 30mm length incl. lots of washers and nuts. As to keep the elecontrics (especially the buttons and rotaries) in place, I use double-sided adhesive pads. For a less chaos I additionally use cable labeles, which makes the wiring a lot easier. 
