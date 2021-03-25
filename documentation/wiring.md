@@ -8,4 +8,4 @@ The rest of the buttons and other parts are connected to the RPI and Pico as des
 
 Each Button has a keyboard key assigned to. On the RPI the key assignment is done by a dtoverlay configuration, which can be found in the repository. On the pico the keyboard is configured through a circuitpython script. 
 
-![Wiring Table](/images/rmp_pin_wiring.png)
+![Wiring Table](https://github.com/homeavionicgroup/rmp/blob/main/documentation/images/rmp_pin_wiring.png)
