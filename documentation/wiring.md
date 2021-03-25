@@ -6,5 +6,6 @@ The display is connected through DPI, which allows the RPI to be mounted on the 
 
 The rest of the buttons and other parts are connected to the RPI and Pico as described on the following table. 
 
-Each Button has a keyboard key assigned to. On the RPI the key assignment is done by a dtoverlay configuration, which can be found in the repository. On the pico the keyboard is configured through a circuitpython script.
+Each Button has a keyboard key assigned to. On the RPI the key assignment is done by a dtoverlay configuration, which can be found in the repository. On the pico the keyboard is configured through a circuitpython script. 
 
+!Wiring Table](/images/rmp_pin_wiring.png)
