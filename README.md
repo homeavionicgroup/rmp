@@ -3,7 +3,7 @@ Radio Management Panel for HomeCockpit Use
 
 This Repository shows the requred sources to build a A350ish Radio Management Panel for the use with your Home Flightsimulator. Currently it only works with X-Plane (FF320, ToLiss321, FF350) but MSFS compatibility is generally possible. 
 
-**For Flight Simulation use only. No warranties, use at your own risk**
+ # For Flight Simulation use only. No warranties, use at your own risk
 
 Currently the RMP allows following functions:
 1. VHF Management 
