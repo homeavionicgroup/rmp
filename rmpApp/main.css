@@ -1,0 +1,30 @@
+.button {
+    background-color: #555555; 
+    border: none;
+    color: #ffffff;
+    padding: 25px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 20px;
+  }
+
+  .noscrollbars {
+    overflow: hidden;
+  }
+  
+  .hidden{
+    display: none;
+  }
+  
+  .blackBg {
+    background-color: black;
+  }
+  
+  .container {
+      background-color: black;
+      position: relative;
+      text-align: left;
+      color: white;
+  }

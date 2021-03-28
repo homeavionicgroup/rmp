@@ -28,7 +28,7 @@ function setFrequencyFromMessageLine(target){
         switch(target){
             case 1:
                 stbFreq1 = val;
-                sendWSMessage("VHF1Stby", stbFreq1);
+                sendWSMessage("VHF1Stby", stbFreq1);                
                 break;
             case 2:
                 stbFreq2 = val;
