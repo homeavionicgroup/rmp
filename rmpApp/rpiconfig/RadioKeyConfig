@@ -1,0 +1,22 @@
+#Config for dtoverlay configartion
+#To be placed in the config.txt
+# format e.g.
+#dtoverlay=gpio-key,gpio=16,keycode=103,label="KEY_UP",gpio_pull=2
+
+dtoverlay=gpio-key,gpio=15,keycode=30,label="KEY_A_LSKL1",gpio_pull=2
+dtoverlay=gpio-key,gpio=17,keycode=31,label="KEY_S_LSKL2",gpio_pull=2
+dtoverlay=gpio-key,gpio=18,keycode=32,label="KEY_D_LSKL3",gpio_pull=2
+dtoverlay=gpio-key,gpio=27,keycode=33,label="KEY_F_LSKL4",gpio_pull=2
+
+dtoverlay=gpio-key,gpio=9,keycode=34,label="KEY_G_RSKL1",gpio_pull=2
+dtoverlay=gpio-key,gpio=25,keycode=35,label="KEY_H_RSKL2",gpio_pull=2
+dtoverlay=gpio-key,gpio=11,keycode=36,label="KEY_J_RSKL3",gpio_pull=2
+dtoverlay=gpio-key,gpio=8,keycode=37,label="KEY_K_RSKL4",gpio_pull=2
+
+dtoverlay=gpio-key,gpio=6,keycode=6,label="KEY_Q_MENU1",gpio_pull=2
+dtoverlay=gpio-key,gpio=12,keycode=12,label="KEY_W_MENU2",gpio_pull=2
+dtoverlay=gpio-key,gpio=13,keycode=13,label="KEY_E_MENU3",gpio_pull=2
+dtoverlay=gpio-key,gpio=19,keycode=19,label="KEY_R_MENU4",gpio_pull=2
+dtoverlay=gpio-key,gpio=16,keycode=16,label="KEY_T_MENU5",gpio_pull=2
+dtoverlay=gpio-key,gpio=26,keycode=12,label="KEY_Z_MENU6",gpio_pull=2
+dtoverlay=gpio-key,gpio=20,keycode=16,label="KEY_U_MENU7",gpio_pull=2

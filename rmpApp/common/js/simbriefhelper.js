@@ -5,6 +5,7 @@ var curData = null;
 const lineseperator='--------------------------------------------------------------------'
 const lineseperatorBR = lineseperator+"\n";
 const divBegin = '<div style="line-height:14px;font-size:19px"><pre>';
+const divBeginWX = '<div style="font-size:21px"><pre>';
 const divEnd = '</div>'
 
 function loadSimBriefData(){
@@ -55,7 +56,7 @@ function getSBWX(){
     wxData = wxData.replace("Tropical Cyclone SIGMETs:\n  No Wx data available\n","");
     wxData = wxData.replace("Volcanic Ash SIGMETs:\n  No Wx data available\n","");
     wxData.replace("\n\n\n\n","")
-    var info = divBegin + "[ Airport WX List ]"+lineseperatorBR;
+    var info = divBeginWX + "[ Airport WX List ]"+lineseperatorBR;
     info+= wxData + lineseperatorBR + divEnd;
 
     return info;
