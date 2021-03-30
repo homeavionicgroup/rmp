@@ -1,7 +1,7 @@
 # Radio Management Panel for your HomeCockpit
 Radio Management Panel for HomeCockpit Use
 
-This Repository shows the requred sources to build a A350ish Radio Management Panel for the use with your Home Flightsimulator. Currently it only works with X-Plane (FF320, ToLiss321, FF350) and the MSFS server is currently worked on. 
+This Repository shows the requred sources to build a Radio Management Panel for the use with your Home Flightsimulator. Currently it only works with X-Plane (FF320, ToLiss321, FF350) and the MSFS server is currently worked on. 
 
  # For Flight Simulation use only. No warranties, use at your own risk
 
