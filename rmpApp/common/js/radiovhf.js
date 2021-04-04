@@ -28,11 +28,11 @@ function setFrequencyFromMessageLine(target){
         switch(target){
             case 1:
                 stbFreq1 = val;
-                sendWSMessage("VHF1Stby", stbFreq1);                
+                //sendWSMessage("VHF1Stby", stbFreq1);                
                 break;
             case 2:
                 stbFreq2 = val;
-                sendWSMessage("VHF2Stby", stbFreq1);
+                //sendWSMessage("VHF2Stby", stbFreq1);
                 break;
         }
         displayFrequencies();
@@ -48,13 +48,13 @@ function flipFrequencies(val){
         curFreq1 = stbFreq1;
         stbFreq1 = t;
         sendWSMessage("VHF1Cur", curFreq1.replace(".",""));
-        sendWSMessage("VHF1Stby", stbFreq1.replace(".",""));
+        //sendWSMessage("VHF1Stby", stbFreq1.replace(".",""));
     } else {
         var t = curFreq2;
         curFreq2 = stbFreq2;
         stbFreq2 = t;
         sendWSMessage("VHF2Cur", curFreq2.replace(".",""));
-        sendWSMessage("VHF2Stby", stbFreq2.replace(".",""));
+        //sendWSMessage("VHF2Stby", stbFreq2.replace(".",""));
     }
 }
 
@@ -125,9 +125,9 @@ function handleRespone4VHF(obj){
     if(obj.Radio){
         radio = obj.Radio;
         curFreq1 = radio.VHF1Cur;     
-        stbFreq1 = radio.VHF1Stby;  
+        //stbFreq1 = radio.VHF1Stby;  
         curFreq2 = radio.VHF2Cur;
-        stbFreq2 = radio.VHF2Stby;  
+        //stbFreq2 = radio.VHF2Stby;  
         if(curRadioMode == "VHF"){
             displayFrequencies();
         }

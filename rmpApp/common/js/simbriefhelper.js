@@ -5,7 +5,8 @@ var curData = null;
 const lineseperator='--------------------------------------------------------------------'
 const lineseperatorBR = lineseperator+"\n";
 const divBegin = '<div style="line-height:14px;font-size:19px"><pre>';
-const divBeginWX = '<div style="font-size:21px"><pre>';
+const divBeginWX = '<div style="line-height:18px;font-size:21px"><pre>';
+const divBeginFUEL = '<div style="line-height:28px;font-size:35px"><pre>';
 const divEnd = '</div>'
 
 function loadSimBriefData(){
@@ -31,7 +32,7 @@ function hasSBData(){
 
 function getSBRoute(){
     if(curData){       
-        var dataSplitted = curData.text.plan_html.split(lineseperator);
+        var dataSplitted =  curData.text.plan_html.split(lineseperator);
         var info = divBegin+ dataSplitted[5].split("...............")[1] + lineseperatorBR+ dataSplitted[6]+lineseperatorBR+dataSplitted[8]+divEnd;
 
         return info;
@@ -55,16 +56,16 @@ function getSBWX(){
     wxData = wxData.replace("SIGMETs:\n  No Wx data available\n","");
     wxData = wxData.replace("Tropical Cyclone SIGMETs:\n  No Wx data available\n","");
     wxData = wxData.replace("Volcanic Ash SIGMETs:\n  No Wx data available\n","");
-    wxData.replace("\n\n\n\n","")
-    var info = divBeginWX + "[ Airport WX List ]"+lineseperatorBR;
-    info+= wxData + lineseperatorBR + divEnd;
+    wxData = wxData.replace("\n\n\n\n","")        
+    var info = divBeginWX + wxData + lineseperatorBR + divEnd;
+    //info+= wxData + lineseperatorBR + divEnd;
 
     return info;
 }
 
 function getSBFuel(){
     var data = curData.text.plan_html.split(lineseperator);
-    var info = divBegin + lineseperatorBR + data[3]+lineseperatorBR+divEnd;
+    var info = divBeginFUEL + data[3]+lineseperatorBR+divEnd;
     return info;
 }
 

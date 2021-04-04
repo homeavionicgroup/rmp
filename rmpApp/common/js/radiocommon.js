@@ -41,7 +41,7 @@ function setStandardMenus(){
     document.getElementById("header1").innerText = "VHF";
     document.getElementById("header2").innerText = "SQWK";
     document.getElementById("header3").innerText = "FLPL";
-    document.getElementById("header4").innerText = "INOP";
+    document.getElementById("header4").innerText = "GND";
     document.getElementById("header5").innerText = "INOP";
     document.getElementById("header6").innerText = "INOP";
     document.getElementById("header7").innerText = "MENU";
@@ -140,13 +140,16 @@ function processKeys(btn){
 function standardKeyCallback(btn){
     switch(btn){
         case 'c':
-            setMessageLine("CLR");
+            var m = getMessageLine();
+            if(m.length!=0){
+                setMessageLine(getMessageLine().slice(0,-1));
+            }
             break;
         case 'f':
             setMessageLine("");
             break;
         case 'k':
-            setMessageLine("RST");
+            setMessageLine("RESET");
             break;
         case 'ArrowUp':
         case 'ArrowDown':
