@@ -5,6 +5,7 @@
         <link rel="stylesheet" type="text/css" href="./css/vhf.css"/>
         <link rel="stylesheet" type="text/css" href="./css/sqwk.css"/>
         <link rel="stylesheet" type="text/css" href="./css/simbrief.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/ground.css"/>
         <script type="text/javascript" src="./js/config.js"></script>
         <script type="text/javascript" src="./js/websocketfactory.js"></script>
         <script type="text/javascript" src="./js/radiocommon.js"></script>
@@ -12,6 +13,7 @@
         <script type="text/javascript"  src="./js/radiovhf.js"></script>
         <script type="text/javascript"  src="./js/radiosqwk.js"></script>
         <script type="text/javascript"  src="./js/radiosimbrief.js"></script>
+        <script type="text/javascript" src="./js/radioground.js"></script>
         <script type="text/javascript"  src="./js/simbriefhelper.js"></script>
     </head>
     <body class="blackBg noscrollbars" onload="runPostLoad()">
@@ -41,6 +43,18 @@
                 <div id="activesbl1" class="activeSBl1">RELOAD</div>
                 <div id="sbdata" class="sbdata">No Data</div>
             </div>
+            <div id="ground" class="container hidden">
+                <div id="activeGNDl1" class="activeGNDl1"></div>                
+                <div id="activeGNDl2" class="activeGNDl2"></div>
+                <div id="activeGNDl3" class="activeGNDl3"></div>
+                <div id="activeGNDr1" class="activeGNDr1"></div>                
+                <div id="activeGNDr2" class="activeGNDr2"></div>
+                <div id="activeGNDr3" class="activeGNDr3"></div>
+                <div id="activeGNDm1" class="activeGNDm1"></div>                
+                <div id="activeGNDm2" class="activeGNDm2"></div>
+                <div id="activeGNDm3" class="activeGNDm3"></div>
+            </div>
+           
             <div id="header1" class="radioheader radioheader1" >VHF</div>
             <div id="header2" class="radioheader radioheader2" >SQWK</div>
             <div id="header3" class="radioheader radioheader3" >FLPL</div>

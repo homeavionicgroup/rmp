@@ -38,7 +38,9 @@ function setFrequencyFromMessageLine(target){
         displayFrequencies();
         setMessageLine("");       
     } else {
-        setMessageLine("Invalid Frequency");
+        if(getMessageLine().length!=0){
+            setMessageLine("Invalid Frequency");
+        }
     }
 }
 
@@ -47,13 +49,13 @@ function flipFrequencies(val){
         var t = curFreq1;
         curFreq1 = stbFreq1;
         stbFreq1 = t;
-        sendWSMessage("VHF1Cur", curFreq1.replace(".",""));
+        sendWSMessage("VHF1Cur", curFreq1.toString().replace(".",""));
         //sendWSMessage("VHF1Stby", stbFreq1.replace(".",""));
     } else {
         var t = curFreq2;
         curFreq2 = stbFreq2;
         stbFreq2 = t;
-        sendWSMessage("VHF2Cur", curFreq2.replace(".",""));
+        sendWSMessage("VHF2Cur", curFreq2.toString().replace(".",""));
         //sendWSMessage("VHF2Stby", stbFreq2.replace(".",""));
     }
 }
@@ -61,6 +63,8 @@ function flipFrequencies(val){
 function displayFrequencies(){    
     document.getElementById("main").classList.remove("hidden");
     document.getElementById("simbrief").classList.add("hidden");
+    document.getElementById("ground").classList.add("hidden");
+
     document.getElementById("speaker1").classList.remove("hidden");
     document.getElementById("activer1").classList.add("activerStby");
     document.getElementById("activer1Stby").classList.remove("hidden");
@@ -115,7 +119,7 @@ function vhfFreqCheck(value){
 function switchToVHF(){
     curRadioMode="VHF";
     displayFrequencies();
-    
+    highlightMenuItem(1);
     setLineSelectCallback(vhfLSAction);
     setStandardMenus();
     setStandardKeyCallback();

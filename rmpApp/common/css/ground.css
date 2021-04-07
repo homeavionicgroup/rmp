@@ -1,0 +1,82 @@
+
+.activeGNDl1{
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .activeGNDl2{
+    position: absolute;
+    top: 190px;
+    left: 10px;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  .activeGNDl3{
+    position: absolute;
+    top: 340px;
+    left: 10px;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  
+  .activeGNDr1{
+    position: absolute;
+    top: 70px;
+    left: 630px;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .activeGNDr2{
+    position: absolute;
+    top: 190px;
+    left: 630px;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  
+  }
+  
+  .activeGNDr3{
+    position: absolute;
+    top: 340px;
+    left: 630px;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .activeGNDm1{
+    position: absolute;
+    top: 40px;
+    left: 340px;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .activeGNDm2{
+    position: absolute;
+    top: 190px;
+    left: 340px;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .activeGNDm3{
+    position: absolute;
+    top: 340px;
+    left: 340px;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }

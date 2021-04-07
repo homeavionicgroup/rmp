@@ -32,6 +32,18 @@ function runPostLoad(){
     var l1 = document.getElementById("activesbl1");
     l1.onclick = function(){lineSelect("l1")};
 
+    var l1 = document.getElementById("activeGNDl1");
+    l1.onclick = function(){lineSelect("l1")};
+    var l2 = document.getElementById("activeGNDl2");
+    l2.onclick = function(){lineSelect("l2")};
+    var l3 = document.getElementById("activeGNDl3");
+    l3.onclick = function(){lineSelect("l3")};
+    var r1 = document.getElementById("activeGNDr1");
+    r1.onclick = function(){lineSelect("r1")};
+    var r2 = document.getElementById("activeGNDr2");
+    r2.onclick = function(){lineSelect("r2")};
+    var r3 = document.getElementById("activeGNDr3");
+    r3.onclick = function(){lineSelect("r3")};
     
     setMenuCallback(standardMenuCallback);
     switchToVHF();
@@ -58,6 +70,9 @@ function standardMenuCallback(btn){
             break;
         case "m3":
             switchToSimBrief();
+            break;
+        case "m4":
+            switchToGround();
             break;
         case "m7":
             window.location.href = "../index_radio.html";
@@ -218,5 +233,19 @@ function drawSeperatorLines(){
     ctx.lineTo(800,420);
     ctx.strokeStyle = "#f5f5f5";
     ctx.stroke();
+}
+
+function highlightMenuItem(itemNr){
+    for (i = 1; i < 8; i++) {
+        var h = document.getElementById("header"+i);
+        if(i!=itemNr){
+            h.classList.remove("radioheaderActive");
+            h.classList.add("radioheaderInactive");
+        }        
+        else {
+            h.classList.remove("radioheaderInactive");
+            h.classList.add("radioheaderActive");
+        }
+    }
 }
 

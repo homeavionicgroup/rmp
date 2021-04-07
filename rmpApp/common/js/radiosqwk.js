@@ -6,6 +6,7 @@ var curATCMode = 0;
 function switchToSQWK(){
     curRadioMode = "SQWK";
     displaySQWK();
+    highlightMenuItem(2);
     setLineSelectCallback(sqwkLSAction);
     setStandardMenus();
     setStandardKeyCallback();
@@ -14,6 +15,9 @@ function switchToSQWK(){
 function displaySQWK(){
     document.getElementById("main").classList.remove("hidden");
     document.getElementById("simbrief").classList.add("hidden");
+    document.getElementById("ground").classList.add("hidden");
+
+
     document.getElementById("speaker1").classList.add("hidden");
     document.getElementById("activer1").classList.remove("activer1Stby");
     document.getElementById("activer1Stby").classList.add("hidden");

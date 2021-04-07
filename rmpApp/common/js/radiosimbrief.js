@@ -16,6 +16,11 @@ function switchToSimBrief(){
 function displaySimBrief(){
     document.getElementById("main").classList.add("hidden");
     document.getElementById("simbrief").classList.remove("hidden");
+    document.getElementById("ground").classList.add("hidden");
+
+    document.getElementById("speaker1").classList.add("hidden");
+    document.getElementById("activer1").classList.remove("activer1Stby");
+    document.getElementById("activer1Stby").classList.add("hidden");
 
     document.getElementById("header1").innerText = "PLAN";
     document.getElementById("header2").innerText = "RTE";
@@ -42,22 +47,27 @@ function simBriefMenuCallback(btn){
         case "m1":
             curSBMode = "plan";
             showSBData();
+            highlightMenuItem(1);
             break;
         case "m2":
             curSBMode = "rte";
             showSBData();
+            highlightMenuItem(2);
             break;
         case "m3":
             curSBMode = "wx";
             showSBData();
+            highlightMenuItem(3);
             break;
         case "m4":
             curSBMode = "fuel";
             showSBData();
+            highlightMenuItem(4);
             break;
         case "m5":
             curSBMode = "full";
             showSBData();
+            highlightMenuItem(5);
             break;
         case "m7":
             switchToVHF();
